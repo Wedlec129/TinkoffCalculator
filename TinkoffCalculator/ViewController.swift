@@ -2,13 +2,14 @@
 //  ViewController.swift
 //  TinkoffCalculator
 //
-//  Created by Aleksey Kolesnikov on 25.01.2024.
+//  Created by Борух Соколов on 18.02.2024.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
 
+    
     @IBAction func buttonPressed(_ sender: UIButton) {
         guard let buttonText = sender.currentTitle else { return }
         
