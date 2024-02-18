@@ -14,6 +14,13 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func buttonPressed(_ sender: UIButton) {
+        
+        guard let buttonText = sender.titleLabel?.text else { return }
+        
+        print(buttonText)
+        
+    }
+    
 }
 
